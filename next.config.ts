@@ -1,7 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export",
 
   trailingSlash: true,
 
@@ -11,9 +10,6 @@ const nextConfig: NextConfig = {
 
   allowedDevOrigins: ["192.168.31.127"],
 
-  basePath: "/abhinav-portfolio",
-
-  assetPrefix: "/abhinav-portfolio/",
 };
 
 export default nextConfig;

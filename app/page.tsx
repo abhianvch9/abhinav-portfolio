@@ -26,6 +26,7 @@ import {
 import { CoverflowCarousel } from "@/components/ui/coverflow-carousel";
 import { GridPulse } from "@/components/ui/grid-pulse";
 import { CinematicFooter } from "@/components/ui/motion-footer";
+import ContactForm from "@/components/ui/contact-form";
 
 export default function Home() {
   const projects = [
@@ -826,7 +827,7 @@ export default function Home() {
               </a>
 
             </div>
-
+                <ContactForm />
           </div>
         </section>
 
